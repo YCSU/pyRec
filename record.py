@@ -75,7 +75,6 @@ if __name__ == '__main__':
     hm.SubscribeMouseLeftUp(lu)
     hm.SubscribeMouseRightDown(rd)
     hm.SubscribeMouseRightUp(ru)
-    hm.SubscribeMouseMiddleDown(md)
     hm.HookMouse()
 
 
