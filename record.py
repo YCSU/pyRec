@@ -69,7 +69,6 @@ if __name__ == '__main__':
     lu = partial(left_up, file_path=file_path)
     rd = partial(right_down, file_path=file_path)
     ru = partial(right_up, file_path=file_path)
-    md = partial(middle_down, file_path=file_path, dir_path=dir_path)
 
     hm = pyHook.HookManager()
     hm.SubscribeMouseLeftDown(ld)
